@@ -15,4 +15,10 @@ $(document).on('ready', function() {
 		$('.menuButton').show()
 		$('.menu').toggleClass('active')
 	})
+
+	$('.start').on('click', function() {
+		$('.whereToStart').toggleClass('hidden')
+		$('.menuButton').show()
+		$('.menu').toggleClass('active')
+	})
 })
