@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+.crossfit-container {
+	font-family: Helvetica, sans-serif;
+}
+
 .landing-container {
 	height: 100vh;
 	background-image: url(http://trainerdirectory.crossfit.com/img/background-people.jpg);
@@ -17,16 +21,143 @@
 }
 
 .menuButton {
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
+	border: solid 3px rgb(250, 250, 250);
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 5;
 }
 
-.menuLines {
-	width: 80px;
-	height: 8px;
-	color: white;
+.menuLines{
+	width: 40px;
+	height: 5px;
+	background-color: rgba(250, 250, 250, 1);
+	position: relative;
+	top: 25px;
+	left: 8px;
+}
+
+.menuLines:before {
+	content: '';
+	width: 40px;
+	height: 5px;
+	background-color: rgba(250, 250, 250, 1);
+	position: absolute;
+	top: -12px;
+}
+.menuLines:after {
+	content: '';
+	width: 40px;
+	height: 5px;
+	background-color: rgba(250, 250, 250, 1);
+	position: absolute;
+	top: 12px;
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	background: rgba(10, 10, 10, .8);
+	width: 100%;
+	height: 100vh;
+	left: 100%;
+	transition: all 1s linear;
+}
+
+.menu.active {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 1s linear;
+}
+
+.close {
+	color: rgb(240, 240, 240);
+}
+
+.menuOptions {
+	width: 80%;
+	position: relative;
+	top: 15%;
+	left: 10%;
+
 }
 
 .option {
-	line-style: none;
+	background: rgba(10, 10, 10, .9);
+	color: rgb(240, 240, 240);
+	border: solid 3px rgb(240, 240, 240);
+	text-align: center;
+	font-size: 2em;
+	padding: .5em;
+	margin-bottom: 1em;
+	list-style-type: none;
+	border-radius: .2em;
 }
+
+.findATrainer, .whereToStart {
+	position: absolute;
+	background: rgba(10, 10, 10, .9);
+	color: rgb(240, 240, 240);
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	top: 0;
+	padding: 10%;
+	font-size: 1.5em;
+	overflow-y: scroll;
+}
+
+.title {
+	margin-top: 20%;
+}
+
+.input {
+	width: 80%;
+	font-size: 1.5em;
+	margin: 7% 0;
+	padding: 2%;
+	border-radius: .2em;
+}
+.findSubmit {
+	width: 80%;
+	font-size: 1.5em;
+	padding: 2%;
+	background: none;
+	border-radius: .2em;
+	border: solid 1px rgb(240, 240, 240);
+	color: rgb(240, 240, 240);
+}
+
+.hidden {
+	display: none;
+}
+
+.back {
+	position: absolute;
+    right: 10%;
+    top: 5%;
+    color: rgb(100, 100, 100);
+}
+
+.back:hover {
+	cursor: pointer;
+}
+
+.startList {
+	margin: 10%;
+}
+
+h4 {
+	margin-top: 10%;
+}
+
+li {
+	font-size: 1em;
+}
+
+
+
+
