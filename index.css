@@ -19,6 +19,8 @@
 .landing-container {
 	height: 100vh;
 	background-image: url(http://trainerdirectory.crossfit.com/img/background-people.jpg);
+	background-size: cover;
+	background-repeat: none;
 	background-position: center;
 }
 
