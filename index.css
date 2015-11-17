@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.landing-container {
+	height: 100vh;
+	background-image: url(http://trainerdirectory.crossfit.com/img/background-people.jpg);
+	background-position: center;
+}
+
+.crossfitLogo {
+	position: absolute;
+	bottom: 15%;
+	left: 25%;
+}
+
+.menuButton {
+	width: 100px;
+	height: 100px;
+}
+
+.menuLines {
+	width: 80px;
+	height: 8px;
+	color: white;
+}
+
+.option {
+	line-style: none;
+}
