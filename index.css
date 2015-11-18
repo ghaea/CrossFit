@@ -1,11 +1,9 @@
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-@media only screen and (max-width: 600px) {
-
 
 .crossfit-container {
 	font-family: Helvetica, sans-serif;
@@ -168,16 +166,7 @@ h4 {
 li {
 	font-size: 3em;
 }
-}
 
-/*@media (min-width: 800px) {
-	.crossfitLogo {
-		position: absolute;
-		bottom: 15%;
-		left: 50%;
-		margin-left: 114px;
-	}
-}*/
 
 
 
