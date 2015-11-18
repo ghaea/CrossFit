@@ -11,13 +11,19 @@ $(document).on('ready', function() {
 
 	})
 
-	$('.back').on('click', function() {
+	$('.backTrainer').on('click', function() {
 		$('.findATrainer').toggleClass('hidden')
 		$('.menuButton').show()
 		$('.menu').toggleClass('active')
 	})
 
 	$('.start').on('click', function() {
+		$('.whereToStart').toggleClass('hidden')
+		$('.menuButton').hide()
+		$('.menu').toggleClass('active')
+	})
+
+	$('.backStart').on('click', function() {
 		$('.whereToStart').toggleClass('hidden')
 		$('.menuButton').show()
 		$('.menu').toggleClass('active')
