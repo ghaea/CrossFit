@@ -1,4 +1,5 @@
 
+
 * {
 margin: 0;
 padding: 0;
@@ -124,14 +125,14 @@ box-sizing: border-box;
 
 .input {
 	width: 80%;
-	font-size: 4em;
+	font-size: 1em;
 	margin: 7% 0;
 	padding: 2%;
 	border-radius: .2em;
 }
 .findSubmit {
 	width: 80%;
-	font-size: 4em;
+	font-size: 1em;
 	padding: 2%;
 	background: none;
 	border-radius: .2em;
@@ -145,7 +146,7 @@ box-sizing: border-box;
 
 .back {
 	position: absolute;
-	font-size: 3em;
+	font-size: 1em;
     right: 10%;
     top: 5%;
     color: rgb(100, 100, 100);
