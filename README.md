@@ -2,6 +2,10 @@
 
 This is a quick exercise to create a mobile site for www.crossfit.com.  The primary user will be someone who works out irregularly and will want access to the most relevent information.  The site has been simplified to those specifications.  The menu shows muliple links, but only the 'find a trainer' and 'where to start' views have been completed.
 
+Here is a link to the live site.  It works best on chrome on android or safari on iPhones.
+http://ghaea.github.io/CrossFit/
+
+
 
 ###### Landing Page
 
