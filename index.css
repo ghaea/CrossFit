@@ -79,6 +79,7 @@
 	left: 0;
 	max-width: 100%;
 	transition: all .5s linear;
+	overflow: scroll;
 }
 
 .close {
