@@ -4,13 +4,14 @@ This is a quick exercise to create a mobile site for www.crossfit.com.  The prim
 
 
 ###### Landing Page
-![Alt text](https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-landing.png "landing page")
+
+<img src="https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-landing.png" alt="landing" width="400px" >
 
 ###### Menu
-![Alt text](https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-menu.png "menu")
+<img src="https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-menu.png" alt="menu" width="400px" >
 
-###### Menu
-![Alt text](https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-find-trianer.png "find trainer")
+###### Find A Trainer
+<img src="https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-find-trianer.png" alt="trainer" width="400px" >
 
-###### Menu
-![Alt text](https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-where-to-start.png "menu")
+###### Where To Start
+<img src="https://github.com/ghaea/CrossFit/blob/gh-pages/Screenshot-where-to-start.png" alt="start" width="400px" >
