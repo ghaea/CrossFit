@@ -1,6 +1,7 @@
 $(document).on('ready', function() {
 	$('.menuButton').on('click', function() {
 		$('.menu').toggleClass('active')
+		$('.menuLines').toggleClass('open')
 	})
 
 	$('.find').on('click', function() {

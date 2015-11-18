@@ -42,6 +42,7 @@
 	position: relative;
 	top: 45px;
 	left: 10px;
+	transition: background-color 300ms linear;
 }
 
 .menuLines:before {
@@ -51,6 +52,9 @@
 	background-color: rgba(250, 250, 250, 1);
 	position: absolute;
 	top: -20px;
+	transition: top 300ms linear,
+                bottom 300ms linear,
+                transform 300ms linear;
 }
 .menuLines:after {
 	content: '';
@@ -59,8 +63,26 @@
 	background-color: rgba(250, 250, 250, 1);
 	position: absolute;
 	top: 20px;
+	transition: top 300ms linear,
+                bottom 300ms linear,
+                transform 300ms linear;
 }
 
+.menuLines.open {
+	background-color: rgba(250, 250, 250, 0);
+}
+
+.menuLines.open:before {
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.menuLines.open:after {
+	top: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
 .menu {
 	position: absolute;
 	top: 0;
@@ -166,6 +188,7 @@ h4 {
 
 li {
 	font-size: 1em;
+	margin-bottom: 10px;
 }
 
 
